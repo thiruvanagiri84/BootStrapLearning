@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<pre>
+    The aria-* attribute and &times; explanation
+
+To help improve accessibility for people using screen readers, you should include the aria-label="close" attribute, when creating a close button.
+
+    & times; (×) is an HTML entity that is the preferred icon for close buttons, rather than the letter "x".
+</pre>
+
+<pre>
+    Closing Alerts
+× Click on the "x" symbol to the right to close me.
+To close the alert message, add a .alert-dismissable class to the alert container. Then add class="close" and data-dismiss="alert"
+    to a link or a button element (when you click on this the alert box will disappear).
+</pre>
+
+<div class="row">
+    <div class="col-sm-6">
+        <h2>Alert class and Alert Links - Used to show error message to user or any specific message to user</h2>
+        <p>Add the alert-link class to any links inside the alert box to create "matching colored links".</p>
+        <div class="alert alert-success">
+            <strong>Success!</strong> You should <a href="#" class="alert-link">read this message</a>.
+        </div>
+        <div class="alert alert-info">
+            <strong>Info!</strong> You should <a href="#" class="alert-link">read this message</a>.
+        </div>
+        <div class="alert alert-warning">
+            <strong>Warning!</strong> You should <a href="#" class="alert-link">read this message</a>.
+        </div>
+        <div class="alert alert-danger">
+            <strong>Danger!</strong> You should <a href="#" class="alert-link">read this message</a>.
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <h2>Animated Alerts</h2>
+        <p>The .fade and .in classes adds a fading effect when closing the alert message.</p>
+        <div class="alert alert-success alert-dismissable fade in">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <strong>Success!</strong> This alert box could indicate a successful or positive action.
+        </div>
+        <div class="alert alert-info alert-dismissable fade in">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <strong>Info!</strong> This alert box could indicate a neutral informative change or action.
+        </div>
+        <div class="alert alert-warning alert-dismissable">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <strong>Warning!</strong> This alert box could indicate a warning that might need attention.
+        </div>
+        <div class="alert alert-danger alert-dismissable">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
+        </div>
+    </div>
+</div>
+<hr>
+
+<div class="row">
+    <h1>Buttons Example</h1>
+    <div class="col-sm-6">
+        <button type="button" class="btn">Basic</button>
+        <button type="button" class="btn btn-default">Default</button>
+        <button type="button" class="btn btn-primary btn-lg">Primary</button>
+        <button type="button" class="btn btn-success btn-md">Success</button>
+        <button type="button" class="btn btn-info btn-sm">Info</button>
+        <button type="button" class="btn btn-warning btn-xs">Warning</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-link">Link</button>
+        <input type="button" class="btn btn-info" value="Input Button">
+        <input type="submit" class="btn btn-info" value="Submit Button">
+    </div>
+    <div class="col-sm-6">
+        <button type="button" class="btn btn-primary btn-block">Button 1</button>
+        <button type="button" class="btn btn-default">Default</button>
+        <button type="button" class="btn btn-primary active">Active Primary</button>
+        <button type="button" class="btn btn-primary disabled">Disabled Primary</button>
+    </div>
+</div>
+<hr>
+
+<div class="row">
+    <h1>Button Groups Example</h1>
+    <div class="col-sm-4">
+        <div class="btn-group btn-group-sm">
+            <button type="button" class="btn btn-primary">Apple</button>
+            <button type="button" class="btn btn-primary">Samsung</button>
+            <button type="button" class="btn btn-primary">Sony</button>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="btn-group-vertical">
+            <button type="button" class="btn btn-primary">Apple</button>
+            <button type="button" class="btn btn-primary">Samsung</button>
+            <button type="button" class="btn btn-primary">Sony</button>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="btn-group btn-group-justified">
+            <a href="#" class="btn btn-primary">Apple</a>
+            <a href="#" class="btn btn-primary">Samsung</a>
+            <a href="#" class="btn btn-primary">Sony</a>
+        </div>
+    </div>
+</div>
+<hr>
+
+<div class="row">
+    <h1>Split/Nested Button Groups Example</h1>
+    <div class="col-sm-6">
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary">Sony</button>
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Tablet</a></li>
+                <li><a href="#">Smartphone</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary">Apple</button>
+            <button type="button" class="btn btn-primary">Samsung</button>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                    Sony <span class="caret"></span></button>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Tablet</a></li>
+                    <li><a href="#">Smartphone</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<hr><hr>
+
+<div class="container">
+    <h2>Badges on Buttons</h2>
+    <button type="button" class="btn btn-primary">Primary <span class="badge">7</span></button>
+    <button type="button" class="btn btn-success">Success <span class="badge">3</span></button>
+    <button type="button" class="btn btn-danger">Danger <span class="badge">5</span></button>
+</div>
+<div class="container">
+    <h2>Badges</h2>
+    <a href="#">News <span class="badge">5</span></a><br>
+    <a href="#">Comments <span class="badge">10</span></a><br>
+    <a href="#">Updates <span class="badge">2</span></a>
+</div>
+<hr>
+
+<div class="container">
+    <h2>Glyphicon Examples</h2>
+    <pre>The name part in the syntax above must be replaced with the proper name of the glyphicon.
+    More Glyphicons available here http://glyphicons.com/    </pre>
+    <p>Envelope icon: <span class="glyphicon glyphicon-envelope"></span></p>
+    <p>Envelope icon as a link:
+        <a href="#"><span class="glyphicon glyphicon-envelope"></span></a>
+    </p>
+    <p>Search icon: <span class="glyphicon glyphicon-search"></span></p>
+    <p>Search icon on a button:
+        <button type="button" class="btn btn-default">
+            <span class="glyphicon glyphicon-search"></span> Search
+        </button>
+    </p>
+    <p>Search icon on a styled button:
+        <button type="button" class="btn btn-info">
+            <span class="glyphicon glyphicon-search"></span> Search
+        </button>
+    </p>
+    <p>Print icon: <span class="glyphicon glyphicon-print"></span></p>
+    <p>Print icon on a styled link button:
+        <a href="#" class="btn btn-success btn-lg">
+            <span class="glyphicon glyphicon-print"></span> Print
+        </a>
+    </p>
+</div>
+
+</body>
+</html>

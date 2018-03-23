@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid">
+    <h1>My First Bootstrap Page with Container-fluid class</h1>
+    <p>This part is inside a .container-fluid class.</p>
+    <p>The .container-fluid class provides a full width container, spanning the entire width of the viewport.</p>
+</div>
+
+<div class="container">
+    <h1>My First Bootstrap Page with Container class</h1>
+    <p>This part is inside a .container-fluid class.</p>
+    <p>The .container-fluid class provides a fixed width container</p>
+</div>
+<hr>
+<div class="row">
+    <div class="container">
+        <h2>Each row is divided into 12 grids (Span 12 columns)</h2>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-4">
+        <h1>My First Column(span 4 columns)</h1>
+        <h1>h1 heading <small>secondary text</small></h1>
+        <h2>h2 heading <small>secondary <mark>marked text</mark></small></h2>
+        <p>The <abbr title="This is container-fluid class">.container-fluid</abbr> class provides a full width container, spanning the entire width of the viewport.</p>
+    </div>
+    <div class="col-sm-4">
+        <h1>My First Second Column(span 4 columns) </h1>
+        <h3>h3 heading <small>secondary text</small></h3>
+        <h4>h4 heading <small>secondary <mark>marked text</mark></small></h4>
+        <p>The <abbr title="This is container-fluid class">.container-fluid</abbr> class provides a full width container, spanning the entire width of the viewport.</p>
+    </div>
+    <div class="col-sm-4">
+        <h1>Blockquotes(span 4 columns)</h1>
+        <p>The blockquote element is used to present content from another source:</p>
+        <blockquote>
+            <p>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</p>
+            <footer>From WWF's website</footer>
+        </blockquote>
+    </div>
+</div>
+<hr>
+<div class="row">
+    <div class="container">
+        <h1>Blockquotes</h1>
+        <p>The blockquote element is used to present content from another source:</p>
+        <blockquote>
+            <p>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</p>
+            <footer>From www.google.com</footer>
+        </blockquote>
+    </div>
+</div>
+<hr>
+
+<div class="row">
+    <div class="container">
+        <h1>Blockquotes - Right side of screen.</h1>
+        <p>The blockquote element is used to present content from another source:</p>
+        <blockquote class="blockquote-reverse">
+            <p>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</p>
+            <footer>From www.google.com</footer>
+        </blockquote>
+    </div>
+</div>
+<hr>
+
+<div class="container">
+    <h1>Description Lists</h1>
+    <h2>The <small>dl</small> element indicates a description list:</h2>
+    <dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+        <dt>Something</dt>
+        <dd>- Something</dd>
+    </dl>
+    <p>The following HTML elements: <code>span</code>, <code>section</code>, and <code>div</code> defines a section in a document.</p>
+    <h1>Keyboard Inputs</h1>
+    <p>To indicate input that is typically entered via the keyboard, use the kbd element:</p>
+    <p>Use <kbd>ctrl + p</kbd> to open the Print dialog box.</p>
+    <h1>Multiple Code Lines</h1>
+    <p>For multiple lines of code, use the pre element:</p>
+    <pre>
+    Text in a pre element
+    is displayed in a fixed-width
+    font, and it preserves
+    both      spaces and
+    line breaks.
+    </pre>
+</div>
+<hr>
+
+<div class="row">
+    <div class="col-sm-4">
+        <h2>Contextual Colors</h2>
+        <p>Use the contextual classes to provide "meaning through colors":</p>
+        <p class="text-muted">This text is muted.</p>
+        <p class="text-primary">This text is important.</p>
+        <p class="text-success">This text indicates success.</p>
+        <p class="text-info">This text represents some information.</p>
+        <p class="text-warning">This text represents a warning.</p>
+        <p class="text-danger">This text represents danger.</p>
+    </div>
+    <div class="col-sm-4">
+        <h2>Contextual Backgrounds</h2>
+        <p>Use the contextual background classes to provide "meaning through colors":</p>
+        <p class="bg-primary">This text is important.</p>
+        <p class="bg-success">This text indicates success.</p>
+        <p class="bg-info">This text represents some information.</p>
+        <p class="bg-warning">This text represents a warning.</p>
+        <p class="bg-danger">This text represents danger.</p>
+    </div>
+    <div class="col-sm-4">
+        <h2>Typography</h2>
+        <p class="text-left">Left-aligned text.</p>
+        <p class="text-right">Right-aligned text.</p>
+        <p class="text-center">Center-aligned text.</p>
+        <p class="text-justify">Justified text. Justified text. Justified text. Justified text. Justified text. Justified text.</p>
+        <p class="text-nowrap">No wrap text. No wrap text. No wrap text. No wrap text.</p>
+        <p><strong>Tip:</strong> Try to resize the browser window to see the behaviour of justify and nowrap.</p>
+    </div>
+</div>
+<hr>
+
+<div class="container">
+    <h2>CLOSE icon Example</h2>
+    <p>The .close class indicates a close icon.</p>
+    <div style="padding:50px;width:400px;background-color:#f1f1f1;">
+        <span>The close icon floats to the right:</span>
+        <button type="button1" class="close">closeit</button>
+    </div>
+    <div style="padding:50px;width:400px;background-color:#f1f1f1;">
+        <span>The close icon floats to the right:</span>
+        <button type="button1" class="close"></button>
+        <button type="button2" class="close"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+    </div>
+</div>
+<hr>
+
+<div class="container">
+    <h2>Text-hide class Example</h2>
+    <p>The .text-only class replaces an element's text content with a background image:</p>
+    <div class="text-hide">Some text inside a div element.</div>
+</div>
+<hr>
+
+<div class="row">
+    <div class="col-sm-6">
+        <h2>show/Hide/Invisible Examples</h2>
+        <p>The .show class forces an element to be shown (display:block):</p>
+        <p class="show">This paragraph is forced to be shown (display:block).</p>
+        <p>The .hidden class forces an element to be hidden (display:none):</p>
+        <p class="hidden">This paragraph is forced to be hidden (display:none).</p>
+        <pre>
+            Wanted space given
+        </pre>
+        <p>The .invisible class makes an element invisible (visibility:hidden) - will take up space on page:</p>
+        <p class="invisible">This paragraph is forced to be hidden (visibility:hidden).</p>
+        <p>Sample text to show elements with class="invisible" takes up space.</p>
+    </div>
+    <hr>
+
+    <div class="col-sm-6">
+        <h2>Example</h2>
+        <p>The .caret class indicates dropdown functionality and direction: <span class="caret"></span></p>
+        <p>The .caret class used on a button:</p>
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Menu <span class="caret"></span></button>
+            <ul class="dropdown-menu" role="menu">
+                <li><a href="#">A link</a></li>
+                <li><a href="#">Another link</a></li>
+                <li><a href="#">Something else here</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<hr>
+
+<div class="row">
+    <div class="col-sm-4">
+        <h2>Typography - Lower case/Upper case</h2>
+        <p class="text-lowercase">Lowercased text.</p>
+        <p class="text-uppercase">Uppercased <mark>Some Highlighted Text</mark></p>
+        <p class="text-capitalize">Capitalized text.</p>
+    </div>
+    <div class="col-sm-4">
+        <h2>class list-unstyled</h2>
+        <p>The class .list-unstyled removes the default list-style and left margin on list items (immediate children only):</p>
+        <ul class="list-unstyled">
+            <li>list with class list-unstyled</li>
+            <li>Tea
+                <ul>
+                    <li>Black tea</li>
+                    <li>Green tea</li>
+                </ul>
+            </li>
+            <li>Milk</li>
+        </ul>
+        <ul>
+            <li>list withOUT class list-unstyled</li>
+            <li>Tea
+                <ul>
+                    <li>Black tea</li>
+                    <li>Green tea</li>
+                </ul>
+            </li>
+            <li>Milk</li>
+        </ul>
+    </div>
+    <div class="col-sm-4">
+        <h1>The class <small>.list-inline</small> places all list items on a single line:</h1>
+        <ul class="list-inline">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ul>
+    </div>
+</div>
+<hr>
+
+<div class="container">
+    <h2>Typography</h2>
+    <p>Use the .dl-horizontal class line up the description list side-by-side when the browser window expands:</p>
+    <dl class="dl-horizontal">
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+    </dl>
+    <p><strong>Tip:</strong> Try to resize the browser window to see the behaviour of the description list.</p>
+</div>
+<hr>
+
+<div class="container">
+    <h2>Code</h2>
+
+    <p>For multiple lines of code, use the pre element:</p>
+  <pre>Text in a pre element
+  is displayed in a fixed-width
+  font, and it preserves
+  both      spaces and
+  line breaks.</pre>
+
+    <p>If you add the .pre-scrollable class, the pre element gets a max-height of 350px and provides a y-axis scrollbar:</p>
+  <pre class="pre-scrollable">Text in a pre element
+  is displayed in a fixed-width
+  font, and it preserves
+  both      spaces and
+      sdflkjweoi
+      <del>Some Deleted Text</del>
+   <mark>Some Highlighted Text</mark>
+  line breaks.</pre>
+</div>
+<hr>
+
+<div class="container-fluid">
+    <h1>ClearFix example!</h1>
+    <div class="row">
+        <div class="col-xs-6 col-sm-3" style="background-color:lavender;">
+            Column 1<br>
+            Resize the browser window to see the effect. Also try to remove the div clearfix line and see what happens.
+        </div>
+        <div class="col-xs-6 col-sm-3" style="background-color:lavenderblush;">Column 2</div>
+        <!-- Add clearfix for only the required viewport -->
+        <div class="clearfix visible-xs"></div>
+        <div class="col-xs-6 col-sm-3" style="background-color:lightcyan;">Column 3</div>
+        <div class="col-xs-6 col-sm-3" style="background-color:lightgray;">Column 4</div>
+    </div>
+</div>
+<hr>
+
+<div class="container">
+    <h4>Labels Example</h4>
+    <span class="label label-default">Default Label</span>
+    <span class="label label-primary">Primary Label</span>
+    <span class="label label-success">Success Label</span>
+    <span class="label label-info">Info Label</span>
+    <span class="label label-warning">Warning Label</span>
+    <span class="label label-danger">Danger Label</span>
+</div>
+<hr>
+
+<div class="container">
+    <h4>Progress Bars Example</h4>
+    <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="70"
+             aria-valuemin="0" aria-valuemax="100" style="width:70%">
+            <span class="sr-only">70% Complete</span>
+        </div>
+    </div>
+    <div class="progress">
+        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+             aria-valuemin="0" aria-valuemax="100" style="width:40%">
+            40% Complete (success)
+        </div>
+    </div>
+
+    <div class="progress">
+        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50"
+             aria-valuemin="0" aria-valuemax="100" style="width:50%">
+            50% Complete (info)
+        </div>
+    </div>
+
+    <div class="progress">
+        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60"
+             aria-valuemin="0" aria-valuemax="100" style="width:60%">
+            60% Complete (warning)
+        </div>
+    </div>
+
+    <div class="progress">
+        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70"
+             aria-valuemin="0" aria-valuemax="100" style="width:70%">
+            70% Complete (danger)
+        </div>
+    </div>
+
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped active" role="progressbar"
+             aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+            40%
+        </div>
+    </div>
+
+    <div class="progress">
+        <div class="progress-bar progress-bar-success" role="progressbar" style="width:40%">
+            Free Space
+        </div>
+        <div class="progress-bar progress-bar-warning" role="progressbar" style="width:10%">
+            Warning
+        </div>
+        <div class="progress-bar progress-bar-danger" role="progressbar" style="width:20%">
+            Danger
+        </div>
+    </div>
+</div>
+<hr>
+
+<div class="container">
+    <h4>Pagination Example</h4>
+    <ul class="pagination pagination-lg">
+        <li><a href="#">1</a></li>
+        <li class="active"><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li class="disabled"><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+    </ul>
+    <ul class="pagination pagination-sm">
+        <li><a href="#">1</a></li>
+        <li class="active"><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li class="disabled"><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+    </ul>
+    <h4>BreadCrumbs Example</h4>
+    <ul class="breadcrumb">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Private</a></li>
+        <li><a href="#">Pictures</a></li>
+        <li class="active">Vacation</li>
+    </ul>
+    <h4>Pager Example - Prev/Next buttons</h4>
+    <ul class="pager">
+        <li><a href="#">Previous</a></li>
+        <li><a href="#">Next</a></li>
+    </ul>
+    <ul class="pager">
+        <li class="previous"><a href="#">Previous</a></li>
+        <li class="next"><a href="#">Next</a></li>
+    </ul>
+</div>
+<hr>
+
+<div class="container">
+    <h2>List Group With Contextual Classes</h2>
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-success">First item</li>
+        <li class="list-group-item list-group-item-info">Second item</li>
+        <li class="list-group-item list-group-item-warning">Third item</li>
+        <li class="list-group-item list-group-item-danger">Fourth item</li>
+    </ul>
+
+    <h2>Linked Items With Contextual Classes</h2>
+    <p>Move the mouse over the linked items to see the hover effect:</p>
+    <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-success">First item</a>
+        <a href="#" class="list-group-item list-group-item-info">Second item</a>
+        <a href="#" class="list-group-item list-group-item-warning">Third item</a>
+        <a href="#" class="list-group-item list-group-item-danger">Fourth item</a>
+    </div>
+</div>
+
+<div class="container">
+    <h2>List Group With Custom Content</h2>
+    <div class="list-group">
+        <a href="#" class="list-group-item active">
+            <h4 class="list-group-item-heading">First List Group Item Heading</h4>
+            <p class="list-group-item-text">List Group Item Text</p>
+        </a>
+        <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">Second List Group Item Heading</h4>
+            <p class="list-group-item-text">List Group Item Text</p>
+        </a>
+        <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">Third List Group Item Heading</h4>
+            <p class="list-group-item-text">List Group Item Text</p>
+        </a>
+    </div>
+</div>
+
+<div class="container">
+    <h2>Panels with Contextual Classes</h2>
+    <div class="panel-group">
+        <div class="panel panel-default">
+            <div class="panel-heading">Panel with panel-default class</div>
+            <div class="panel-body">Panel Content</div>
+        </div>
+
+        <div class="panel panel-primary">
+            <div class="panel-heading">Panel with panel-primary class</div>
+            <div class="panel-body">Panel Content</div>
+        </div>
+
+        <div class="panel panel-success">
+            <div class="panel-heading">Panel with panel-success class</div>
+            <div class="panel-body">Panel Content</div>
+        </div>
+
+        <div class="panel panel-info">
+            <div class="panel-heading">Panel with panel-info class</div>
+            <div class="panel-body">Panel Content</div>
+        </div>
+
+        <div class="panel panel-warning">
+            <div class="panel-heading">Panel with panel-warning class</div>
+            <div class="panel-body">Panel Content</div>
+        </div>
+
+        <div class="panel panel-danger">
+            <div class="panel-heading">Panel with panel-danger class</div>
+            <div class="panel-body">Panel Content</div>
+        </div>
+    </div>
+</div>
+<hr>
+
+<div class="container">
+    <h2>Showing text as per screens</h2>
+    <p>Resize this page to see how the text below changes:</p>
+    <h1 class="visible-xs bg-danger">This text is shown only on an EXTRA SMALL screen.</h1>
+    <h1 class="visible-sm bg-info">This text is shown only on a SMALL screen.</h1>
+    <h1 class="visible-md bg-warning">This text is shown only on a MEDIUM screen.</h1>
+    <h1 class="visible-lg bg-success">This text is shown only on a LARGE screen.</h1>
+
+    <p>Note: The visible-* classes are deprecated as of Bootstrap v3.2.0</p>
+</div>
+<hr>
+
+<div class="container">
+    <p>WELL Example - adds a rounded border around an element with a gray background color and some padding</p>
+    <div class="well">Normal Well</div>
+    <div class="well well-sm">Small Well</div>
+    <div class="well well-lg">Large Well</div>
+</div>
+</body>
+</html>
